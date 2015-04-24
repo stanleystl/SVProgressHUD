@@ -77,5 +77,7 @@ typedef NS_ENUM(NSUInteger, SVProgressHUDMaskType) {
 
 + (BOOL)isVisible;
 
+- (void)showProgress:(float)progress status:(NSString*)string maskType:(SVProgressHUDMaskType)hudMaskType;
+
 @end
 
