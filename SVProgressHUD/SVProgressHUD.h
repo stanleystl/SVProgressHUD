@@ -43,6 +43,7 @@ typedef NS_ENUM(NSUInteger, SVProgressHUDMaskType) {
 #pragma mark - Show Methods
 
 + (void)show;
++ (void)showForView:(UIView *)aView;
 + (void)showWithMaskType:(SVProgressHUDMaskType)maskType;
 + (void)showWithStatus:(NSString*)status;
 + (void)showWithStatus:(NSString*)status maskType:(SVProgressHUDMaskType)maskType;
